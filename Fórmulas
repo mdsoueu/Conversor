@@ -1,0 +1,114 @@
+Comprimento
+  Metro → Centímetro
+    *100
+  Metro → Quilômetro
+    /1000
+
+  Centímetro → Metro
+    /100
+  Centímetro → Quilômetro
+    /100000
+
+  Quilômetro → metro
+    *1000
+  Quilômetro → centímetro
+    *100000
+
+–//–//–//–//–//–//–//–//–//–//–//–//–//–//–//–
+
+Volume
+Litro → Mililitro
+*1000
+Mililitro → Litro
+/1000
+
+–//–//–//–//–//–//–//–//–//–//–//–//–//–//–//–
+
+Velocidade
+Quilômetro por hora → Metros por segundo
+/3,6
+Metros por segundo → Quilômetro por hora
+*3,6
+
+–//–//–//–//–//–//–//–//–//–//–//–//–//–//–//–
+
+Massa
+  Quilograma → Grama
+    *1000
+
+  Grama → Quilograma
+    /1000
+  Grama → Miligrama
+      *1000
+
+  Miligrama → Grama
+    /1000
+  
+
+–//–//–//–//–//–//–//–//–//–//–//–//–//–//–//–
+
+Temperatura
+  Celsius → Fahrenheit
+    (C*9/5)+32
+  Celsius → Kelvin
+    C+273,15
+
+  Fahrenheit → Celsius
+    (F - 32) * 5/9
+  Fahrenheit → Kelvin
+    (F - 32) * 5/9+273,15
+
+  Kelvin → Celsius
+    K - 273,15
+  Kelvin → Fahrenheit
+    (K - 273,15)*9/5+32
+
+–//–//–//–//–//–//–//–//–//–//–//–//–//–//–//–
+
+Tempo
+  Segundos → Minutos
+    /60
+  Segundos → Hora
+    /3600
+
+  Minutos → Segundo
+    *60
+  Minutos → Hora
+    /60
+
+  Horas → Segundos
+    *3600
+  Horas → Minutos
+    *60
+  Horas → Dias
+    /24
+
+  Dia → Hora
+    *24
+  Dia → Semana
+    /7
+  Dia → Mês
+    /30,417
+  Dia → ano-calendário
+    /365
+
+  Semana → Dia
+    *7
+  Semana → Mês
+    /4,345
+  Semana → Ano-calendário
+    /52,143
+
+  Mês → Dia
+    *30,417
+  Mês → Semana
+    * 4.345
+  Mês → Ano-calendário
+    /12
+
+  Ano-calendário → Dia
+    *365
+  Ano-calendário → Semana
+    *52.143
+  Ano-calendário → Mês
+    *12
